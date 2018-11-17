@@ -1,0 +1,28 @@
+# -*- coding: utf-8 -*-
+import numpy as np
+
+# x = np.array([1.0, 2.0, 3.0])
+# y = np.array([2.0, 4.0, 6.0])
+#
+# print(x / 2)
+
+# A = np.array([[1, 2], [3, 4]])
+# B = np.array([[3, 0], [0, 6]])
+#
+# print(A + B)
+# print(A * B)
+# print(A * 10)
+
+# A = np.array([[1, 2], [3, 4]])
+# B = np.array([10, 20])
+#
+# print(A * B)
+
+X = np.array([[51, 55], [14, 19], [0, 4]])
+# for item in X:
+#     print(item)
+
+X = X.flatten()  # １次元の配列へ
+# print(X)
+
+print(X[X > 15])
